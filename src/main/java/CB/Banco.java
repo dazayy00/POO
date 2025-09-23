@@ -15,8 +15,7 @@ import java.util.Optional;
 public class Banco {
     
     private String nombre;
-    // Se usa la lista del tipo abstracto 
-    //para poder guardar cualquier tipo de cuenta 
+    
     private List<CuentaBancaria> cuentas;
 
     public Banco(String nombre) {
