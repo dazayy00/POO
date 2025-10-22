@@ -12,7 +12,7 @@ public class Propietario {
     private Long id;
     private String nombre;
     private String apellido;
-    
+
     public Propietario(){
         
     }
@@ -45,5 +45,14 @@ public class Propietario {
     
     public void setApellido(String apellido){
         this.apellido = apellido;
+    }
+    
+    @Override
+    public String toString(){
+        return "Propietario {"+
+                "id- " + id +
+                ", nombre- "+ nombre +
+                ", apellido- " + apellido +
+                "}";
     }
 }
